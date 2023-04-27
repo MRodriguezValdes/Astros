@@ -1,10 +1,13 @@
 # Breve explicacion
 El siguiente programa tiene como objetivo , almacenar los datos del sistema solar de forma estructurada , para ello hemos empleado tres clases :
-1.Astros: Que será una clase abstracta , es decir , forzara el comportamiento de sus clases hijas.Una clase de la que no se crearán instancias,pero permitirá
-englobar un concepto
-2.Planetas: Para poder crear los planetas del sistema solar.
-3.Satélites: Para poder crear los satélites de los planetas del sistema solar.
-4.Main: Donde se ejecutará  nuestro programa y de forma manual hemos creado nuestros planetas y satélites.
+
+1. Astros: Que será una clase abstracta , es decir , forzara el comportamiento de sus clases hijas.Una clase de la que no se crearán instancias,pero permitirá englobar un concepto
+
+2. Planetas: Para poder crear los planetas del sistema solar.
+
+3. Satélites: Para poder crear los satélites de los planetas del sistema solar.
+
+4. Main: Donde se ejecutará  nuestro programa y de forma manual hemos creado nuestros planetas y satélites.
 
 # Clase Astros:
 ```java
