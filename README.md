@@ -1,10 +1,10 @@
 # Breve explicacion
-El siguiente programa tien como onjetivo , almacenar los datos del sistema solar de forma estructurada , para ello hemos empleado tres clases :
-1.Astros: Que sera una clase abstracta , es decir , forzara el comportamiento de sus clases hijas.Una clase de la que no se crearan instancias,pero permitira
+El siguiente programa tiene como objetivo , almacenar los datos del sistema solar de forma estructurada , para ello hemos empleado tres clases :
+1.Astros: Que será una clase abstracta , es decir , forzara el comportamiento de sus clases hijas.Una clase de la que no se crearán instancias,pero permitirá
 englobar un concepto
 2.Planetas: Para poder crear los planetas del sistema solar.
-3.Satelites: Para poder crear los satelites de los planetas del sistema solar.
-4.Main: Donde se ejecutara  nustro programa y de forma manual hemos creado nuestros planetas y satelites.
+3.Satélites: Para poder crear los satélites de los planetas del sistema solar.
+4.Main: Donde se ejecutará  nuestro programa y de forma manual hemos creado nuestros planetas y satélites.
 
 # Clase Astros:
 ```java
@@ -47,7 +47,7 @@ public abstract class Astros {
     }
 
 ```
-Hemos definido un metodo muestra que sera heredado por sus clases hijas , es decir , estas haran override de dicho metodo.
+Hemos definido un método muestra que será heredado por sus clases hijas , es decir , estas harán override de dicho método.
 
 # Clase Planetas
 ```java
@@ -105,7 +105,7 @@ public class Planetas extends Astros {
     }
 
 ```
-Hacemo override del metodo muestra, ya que debemos mostrar mas informacion , e implementamos un forma de mostrar los satelites de dicho planeta
+Hacemo override del método muestra, ya que debemos mostrar mas informacion , e implementamos un forma de mostrar los satélites de dicho planeta
 
 
 # Clase Satelites
@@ -317,7 +317,7 @@ public class Main {
                 case 4 -> System.out.println(astros.getMasa());
                 case 5 -> System.out.println(astros.getTemperaturaMedia());
                 case 6 -> salir = true;
-                default -> System.out.println("No es una opcion correcta");
+                default -> System.out.println("No es una opción correcta");
             }
 
 
@@ -327,18 +327,21 @@ public class Main {
 
     public static void main(String[] args) {
         Main start = new Main();
-        start.iniciarPrograma();
+        start.iniciar Programa();
     }
 }
 
 
 ```
 ```
-IMPLEMENTAMOS NUESTRO MENU 
+IMPLEMENTAMOS NUESTRO MENÚ 
 ```
 
 # FIN
 
 ```
-De esta forma hemos completado lo q se nos pedia en la practica .
+De esta forma hemos completado lo que se nos pedía en la práctica .
 ```
+
+
+
